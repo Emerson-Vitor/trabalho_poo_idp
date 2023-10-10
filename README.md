@@ -1,8 +1,27 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 # Documentação de Uso - Aplicativo de Verificação de Sites
 
 ## Introdução
 
 O aplicativo de verificação de sites em Java é projetado para verificar o status de uma lista de sites fornecidos em um arquivo de texto. Ele utiliza threads para realizar verificações simultâneas e registra os resultados em um arquivo JSON.
+# Tecnologias Utilizadas
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 ## Pré-requisitos
 
