@@ -22,8 +22,10 @@ public class TrabalhoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TrabalhoApplication.class, args);
-
-
+		for(int repetInit= 0; repetInit < 10; repetInit++) {
+			System.out.println(" ");
+		}
+		System.out.println("\u001B[33m Initialized \u001B[0m");
 		if (args.length != 2) {
 			System.out.println("Por favor, forneça o caminho do arquivo de texto e do arquivo de log como argumentos.");
 			System.exit(1);
@@ -70,6 +72,7 @@ public class TrabalhoApplication {
 					} else if (status == SiteStatus.FAULTY) {
 						results.add(new SiteResult(url.toString(), SiteStatus.FAULTY, ErrorType.TIMEOUT));
 					}
+					System.out.println("link: "+url+" ----> \u001B[33m checked \u001B[0m");
 				});
 			}
 		} finally {
@@ -84,6 +87,7 @@ public class TrabalhoApplication {
 
 			JsonLogger jsonLogger = new JsonLogger(logFilePath);
 			jsonLogger.logResults(results);
+			System.out.println("\u001B[32m log file available at " + logFilePath +"\u001B[0m");
 		}
 	}
 }
