@@ -12,16 +12,8 @@
 O aplicativo de verificação de sites em Java é projetado para verificar o status de uma lista de sites fornecidos em um arquivo de texto. Ele utiliza threads para realizar verificações simultâneas e registra os resultados em um arquivo JSON.
 # Tecnologias Utilizadas
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![Java][Java]][Java-url]
+* [![SpringBoot][SpringBoot]][SpringBoot-url]
 
 ## Pré-requisitos
 
@@ -81,3 +73,22 @@ Isso iniciará a verificação dos sites listados no arquivo de texto e registra
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para criar issues, pull requests ou sugerir melhorias.
+
+[contributors-shield]: https://img.shields.io/github/contributors/Emerson-Vitor/trabalho_poo_idp.svg?style=for-the-badge
+[contributors-url]: https://github.com/Emerson-Vitor/trabalho_poo_idp/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Emerson-Vitor/trabalho_poo_idp.svg?style=for-the-badge
+[forks-url]: https://github.com/Emerson-Vitor/trabalho_poo_idp/network/members
+[stars-shield]: https://img.shields.io/github/stars/Emerson-Vitor/trabalho_poo_idp.svg?style=for-the-badge
+[stars-url]: https://github.com/Emerson-Vitor/trabalho_poo_idp/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Emerson-Vitor/trabalho_poo_idp.svg?style=for-the-badge
+[issues-url]: https://github.com/Emerson-Vitor/trabalho_poo_idp/issues
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/emerson-vitor-pereira-da-silva-4ba9a8160
+
+
+[Java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=black
+[Java-url]: [https://nextjs.org/](https://www.java.com/pt-BR/)
+
+[SpringBoot]: https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=Spring&logoColor=white
+[SpringBoot-url]: https://spring.io
+
